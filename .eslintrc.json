@@ -1,9 +1,12 @@
 {
   "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
-  "plugins": ["prettier", "@typescript-eslint"],
-  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error",
-    "@typescript-eslint/no-unused-vars": "warn"
+    "prettier/prettier": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
