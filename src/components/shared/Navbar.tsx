@@ -14,9 +14,9 @@ export default function Navbar() {
 
 const NavBarContainerStyles = css`
   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
 `
 
 const NavBarTitleStyles = css`
   font-size: 20px;
-  font-weight: 600;
 `
